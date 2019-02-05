@@ -1,3 +1,4 @@
+import com.algoritm.sort.InsertionSort;
 
 public class MainApp {
 
@@ -5,5 +6,7 @@ public class MainApp {
 
     public static void main(String[] args) {
 
+        InsertionSort insertionSort = new InsertionSort();
+        System.out.println("SelectionSort: " + insertionSort.sort(arrRandom));
     }
 }
